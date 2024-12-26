@@ -4,4 +4,5 @@ As part of my senior Honors thesis, I am developing a model to predict Langmuir 
 * Electron temperature distribution (T-) is maxwellian
 * Ion temperature (T+) is approximately 0K
 * Sheath edge potential is zero
-
+I used a guide to decode MAIN PROGRAM 3's Fortran II code, and I translated its logic into Python. Much of his computation is spent simply setting up the facilities and approximations necessary to perform integration--the numerical results were nearly identical to my modern program.
+MAIN PROGRAM 2 is a much more detailed program, so whittling it down will be an arduous process. It uses gridded computation nets, which are straightforward enough in Python but likely nebulous in Fortran II. I expect to have the program transalted by mid-February.
