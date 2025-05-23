@@ -9,6 +9,6 @@ As part of my senior Honors thesis, I am developed a model to predict Langmuir p
 I used a guide to decode MAIN PROGRAM 3's Fortran II code, and I translated its logic into Python. Much of his computation is spent simply setting up the facilities and approximations necessary to perform integration--the numerical results were nearly identical to my modern program.
 MAIN PROGRAM 2 is a much more detailed program, so whittling it down will be an arduous process. It uses gridded computation nets, which are straightforward enough in Python but likely nebulous in Fortran II.
 
-In addition, I used Chen's parameterization of the "Main Program 1" output to provide a formula for ion current.
+In addition, I used Chen's parameterization of the "MAIN PROGRAM 1" output to provide a formula for ion current.
   
 The final thesis can be found here: https://scholarworks.wm.edu/honorstheses/2416/
